@@ -24,7 +24,7 @@
                         <li class="nav-item"><a class="nav-link mr-auto" href="order.html">Order Online</a></li>
                     </ul>
                 </div>
-                    <a class="btn btn-info" role="button" data-toggle="modal" id="contactUs">Contact Us</a>
+                    <a class="btn btn-info" role="button" data-toggle="modal" data-target="#contactUs">Contact Us</a>
                     <a class="btn btn-social-icon btn-instagram offset-1" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                     <a class="btn btn-social-icon btn-facebook offset-1" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                     <a class="btn btn-social-icon btn-google offset-1" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
@@ -34,14 +34,30 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title">Contact Us</h3>
-                    <p class="modal-paragraph">Drop us a Line!</p>
+                    <h1 class="modal-title offset-4">Contact Us</h1>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
                     <form id="contactUs">
                         <div class="form-group row">
-                            <input type="name" class="form-control" id="name" placeholder="Name*"/>
+                            <input type="name" class="form-control form-control-lg" id="name" placeholder="Name*"/>
+                        </div>
+                        <div class="form-group row">
+                            <input type="email" class="form-control form-control-lg" id="email" placeholder="Email*"/>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group row">
+                            <textarea  placeholder="Message*" id="message" type="message"class="form-control" name="message" rows="8"></textarea>
+                        </div>
+                        <div class="form-group row">
+                            <input type="phone" class="form-control form-control-lg" id="phone" placeholder="Phone*"/>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Sign up for our email list for updates, promotions, and more.</label>
+                        </div>
+                        <div class="form-group row">
+                            <button role="submit" class="btn btn-success btn-lg">Send</button>
                         </div>
                     </form>
                 </div>
@@ -94,7 +110,6 @@
                             <ul class="list-unstyled">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Menu</a></li>
-                                <li><a href="#">Contact</a></li>
                                 <li><a href="order.html">Order Online</a></li>
                             </ul>
                         </div>
@@ -106,7 +121,7 @@
                         </div>       
                         <div class="col-sm-4 text-center">
                             <a role="button" class="btn btn-link" href="tel:+1-832-630-7735"><i class="fa fa-phone fa-lg text-primary"></i> 832-630-7735</a><br />
-                            <a role="button" class="btn btn-link" href="norma.gutierrez@gmail.com"><i class="fa fa-envelope fa-lg text-primary"></i> norma.gutierrez@gmail.com</a>
+                            <a role="button" class="btn btn-link" href="mailto:norma.gutierrez@gmail.com"><i class="fa fa-envelope fa-lg text-primary"></i> norma.gutierrez@gmail.com</a>
                         </div>
                     </div>
                 </div>

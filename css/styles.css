@@ -34,3 +34,17 @@
 .site-footer{
     background-color: rgba(228, 166, 212, 0.849);
 }
+
+.modal-header{
+    background-color:#e3f2fd;
+    color: pink;
+}
+
+.modal-body{
+    background-color:#e3f2fd;
+}
+
+.modal-paragraph{
+    color:pink;
+}
+
