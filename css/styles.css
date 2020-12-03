@@ -51,3 +51,23 @@
  .deliveryButtons{
      margin:20px;
  }
+
+ #col-1{
+     background-color: rgb(173, 0, 144);
+ }
+
+ #col-2{
+     background-color: rgb(179, 90, 174);
+ }
+
+ #col-3{
+     background-color: rgb(202, 131, 195);
+ }
+
+ #col-4{
+     background-color: rgb(245, 177, 236);
+ }
+
+ #col-5{
+     background-color: pink;
+ }
