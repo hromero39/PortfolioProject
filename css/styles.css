@@ -1,7 +1,36 @@
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, pink,pink,pink);
-    color:white; 
+
+
+#subtitle{
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 30px
 }
 
+.view{
+    padding:70px;
+    text-align: center;
+    background-image:url(images/images.jpeg);
+    font-size: 40px;
+}
+
+#about-section-ID{
+    text-align:center;
+    padding:20px;
+    background-color: #e3f2fd;
+}
+
+.view-header{
+    padding: 80px;
+}
+
+.font{
+    font-family: 'Major Mono Display', monospace;
+}
+
+#onlineId{
+    font-size: 50px;
+}
+
+.site-footer{
+    background-color: rgba(228, 166, 212, 0.849);
+}
