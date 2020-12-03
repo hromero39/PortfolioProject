@@ -29,6 +29,7 @@
 
 #onlineId{
     font-size: 50px;
+    color: rgb(0,128,128);
 }
 
 .site-footer{
@@ -70,4 +71,7 @@
 
  #col-5{
      background-color: pink;
+ }
+ .navbar-brand{
+     margin:-90px;
  }
