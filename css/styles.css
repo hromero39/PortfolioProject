@@ -29,12 +29,12 @@
 
 #onlineId{
     font-size: 50px;
-    color: rgb(0,128,128);
+    color: rgb(32, 202, 202);
 }
 
 .site-footer{
     background-color: rgba(228, 166, 212, 0.849);
-
+    padding: 40px;
 }
 
 .modal-header{
@@ -54,24 +54,45 @@
  }
 
  #col-1{
-     background-color: rgb(173, 0, 144);
+     background-color:rgb(64, 75, 168);
  }
 
  #col-2{
-     background-color: rgb(179, 90, 174);
+     background-color: rgb(92, 67, 201);
  }
 
  #col-3{
-     background-color: rgb(202, 131, 195);
+     background-color: rgb(131, 110, 223);
  }
 
  #col-4{
-     background-color: rgb(245, 177, 236);
+     background-color: rgb(145, 147, 236);
  }
 
  #col-5{
-     background-color: pink;
+     background-color: rgb(201, 193, 248);
  }
  .navbar-brand{
      margin:-90px;
+ }
+
+ #orderOnline{
+     background-color: #e3f2fd;
+     padding: 20px;
+ }
+
+ .online-footer{
+     background-color: pink;
+ }
+
+ .font{
+     background-color: pink;
+ }
+
+ #online-social{
+     padding: 30px;
+ }
+
+ #online-hours{
+     padding: 30px;
  }

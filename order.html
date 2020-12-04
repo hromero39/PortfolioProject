@@ -20,15 +20,15 @@
                 <a class="navbar-brand" href="index.html" ><img src="images/nc.png" style="position:relative; left:-40px; right:0px; bottom:0px;" width="200"/></a>
                 <div class="collapse navbar-collapse" id="normaNavbar">
                     <ul class="navbar-nav">
-                        <li class="nav-item-active"><a class="nav-link mr-auto" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link mr-auto" href="">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link mr-auto" href="#">Order Online</a></li>
+                        <li class="nav-item-active"><a class="nav-link mr-auto" href="index.html"><strong>Home</strong></a></li>
+                        <li class="nav-item"><a class="nav-link mr-auto" href=""><strong>Menu</strong></a></li>
+                        <li class="nav-item"><a class="nav-link mr-auto" href="#"><strong>Order Online</strong></a></li>
                     </ul>
                 </div>
                     <a class="btn btn-info" role="button" data-toggle="modal" data-target="#contactUs">Contact Us</a>
                     <a class="btn btn-social-icon btn-instagram offset-1" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                     <a class="btn btn-social-icon btn-facebook offset-1" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-google offset-1" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon btn-pinterest offset-1" href="http://pinterest.com/"><i class="fa fa-pinterest"></i></a>
             </div>
         </nav>
     <div id="contactUs" class="modal fade" role="dialog">
@@ -81,7 +81,7 @@
             <p class="text-center">Baked fresh to order, our cakes are available in two flavor categories – classic and deluxe – 
                 you can make your celebration cake special with any of these options:</p>
         </div>
-        <div class="row">
+        <div class="row text-white">
             <div class="col" id="col-1">
                 <h4>1. Choose a flavor</h4>
                 <p>Classic or Deluxe</p>
@@ -103,13 +103,143 @@
                 <p>Custom artwork and design requires staff consultation</p>
             </div>
         </div>
-            <p class=" text-center">Please call or email the bakery for custom designed cakes:<a role="button" class="btn btn-link" href="tel:+1-832-630-7735"><i class="fa fa-phone fa-lg text-info"></i> 832-630-7735</a><a role="button" class="btn btn-link" href="mailto:norma.gutierrez@gmail.com"><i class="fa fa-envelope fa-lg text-info"></i> norma.gutierrez@gmail.com</a></p>
+            <p class=" text-center">Please call or email the bakery for custom designed cakes:<a role="button" class="btn btn-link" href="tel:+1-832-630-7735"><i class="fa fa-phone fa-lg text-info"></i> <strong>832-630-7735</strong></a><a role="button" class="btn btn-link" href="mailto:norma.gutierrez@gmail.com"><i class="fa fa-envelope fa-lg text-info"></i><strong>norma.gutierrez@gmail.com</strong></a></p>
     </div>
-    <div class="container">
+    <div class="container rounded border border-info" id="orderOnline">
         <form>
+            <div class="form-row">
+                <h2>Cake Inquiry Form</h2>
+            </div>
+            <div class="form-row">
+                <p>When ordering please allow as much notice as possible, at least 48 hours in advance for most orders. However Ready-to-Go Cakes and Slices are available any time! Fill out form below, and we will be in contact</p>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="formName"><strong>Name:</strong></label>
+                </div>
+                <div class="form-group col">
+                    <label for="formEmail"><strong>Email:</strong></label>
+                </div>
+                <div class="form-group col">
+                    <label for="formPhone"><strong>Phone:</strong></label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <input type="name" class="form-control form-control-sm" id="formName"/>
+                </div>
+                <div class="form-group col">
+                    <input type="email" class="form-control form-control-sm" id="formEmail"/>
+                </div>
+                <div class="form-group col">
+                    <input type="phone" class="form-control form-control-sm" id="formPhone"/>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="pickDate"><strong>Pick Up Date:</strong></label>
+                </div>
+                <div class="form-group col">
+                    <label for="pickTime"><strong>Pick Up Time:</strong></label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <input type="pickDate" class="form-control form-control-sm" id="pickDate">
+                    <small class="form-text text-muted">Please allow for 72 hours notice for custom cake orders</small>
+                </div>
+                <div class="form-group col">
+                    <input type="pickTime" class="form-control form-control-sm" id="pickTime">
+                    <small class="form-text text-muted">Open Mon - Sat: 9:30am - 4:30pm</small>
+                </div>
+            </div>
+            <div>
+                <h6>Choose a Flavor (Pick 1):</h6>
+            </div>
+            <div class="form-row">
+                <label for="flavor"><strong>Flavor</strong>:</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                <label class="form-check-label" for="exampleCheck2">Classic</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                <label class="form-check-label" for="exampleCheck3">Deluxe</label>
+            </div>
+            <div class="form-row">
+                <label for="shape"><strong>Cake Shape:</strong></label>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                        <label class="form-check-label" for="exampleCheck4">3 Layer No Design With Border Only</label>
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                        <label class="form-check-label" for="exampleCheck5">3 Layer Round Signature Design</label>
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck6">
+                        <label class="form-check-label" for="exampleCheck6">Sheet Cake No Design Border Only</label>
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck7">
+                        <label class="form-check-label" for="exampleCheck7">Sheet Cake Signature Design</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <label for="inscription"><strong>Inscription(if any)</strong></label>
+            </div>
+            <div class="form-row">
+                <textarea id="inscription" class="form-control" name="inscription" rows="2"></textarea>
+            </div>
+            <div class="form-row">
+                <label for="colorsNotes"><strong>Desired Colors/Notes/essages:</strong></label>
+            </div>
+            <div class="form-row">
+                <textarea id="colorsNotes" class="form-control" name="colorsNotes" rows="4"></textarea>
+            </div>
+            <div class="form-row">
+                    <button role="submit" class="btn btn-success btn-lg">Submit</button>
+            </div>
 
         </form>
     </div>
+    <footer class="online-footer">
+        <div class="container">
+            <div class="row">
+                <div class ="col-sm-4">
+                    <a href="index.html"><img src="images/logo.png" style="position:relative; left:-30px; right:0px; bottom:60px;" class="img-fluid offset-2"/></a>
+                </div>
+                <div class="col-sm-4 text-center" id="online-social">
+                    <h3>Social</h3>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-pinterest" href="http://pinterest.com/"><i class="fa fa-pinterest"></i></a>
+                </div>
+                <div class="col-sm-4 text-center" id="online-hours" >
+                    <h3>Hours</h3>
+                    <p><strong>Mon:</strong> 9:30 am – 4:30 pm</p>
+                    <p><strong>Tue:</strong> 9:30 am – 4:30 pm</p>
+                    <p><strong>Wed:</strong> 9:30 am – 4:30 pm</p>
+                    <p><strong>Thu:</strong> 9:30 am – 4:30 pm</p>
+                    <p><strong>Fri:</strong> 9:30 am – 4:30 pm</p>
+                    <p><strong>Sat:</strong> 9:30 am – 4:30 pm</p>
+                    <p><strong>Sun:</strong> 9:30 am – 4:30 pm</p>
+                </div>   
+            </div>
+        </div>
+
+    </footer>
 
 
 
