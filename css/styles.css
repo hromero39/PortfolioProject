@@ -9,7 +9,7 @@
 .view{
     padding:70px;
     text-align: center;
-    background-image:url(images/images.jpeg);
+    background-image:url(images/cake.png);
     font-size: 40px;
 }
 
@@ -29,7 +29,7 @@
 
 #onlineId{
     font-size: 50px;
-    color: rgb(32, 202, 202);
+    color: rgb(13, 110, 110);
 }
 
 .site-footer{
@@ -85,7 +85,7 @@
      background-color: pink;
  }
 
- .font{
+ #font-online{
      background-color: pink;
  }
 
