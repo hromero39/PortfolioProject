@@ -96,3 +96,21 @@
  #online-hours{
      padding: 30px;
  }
+
+ .left-column{
+     background-color: pink;
+ }
+
+ .right-column{
+     background-color: pink;
+ }
+ 
+
+ #body-menu{
+     background-color:#e3f2fd ;
+ }
+
+ .site-footer-menu{
+     background-color: #e3f2fd;
+     padding: 30px;
+ }
